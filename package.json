@@ -5,9 +5,12 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "create-react-app": "latest",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-scripts": "2.0.3"
+    "react-google-maps": "9.4.5",
+    "react-scripts": "2.0.3",
+    "tachyons": "4.11.1"
   },
   "devDependencies": {},
   "scripts": {
