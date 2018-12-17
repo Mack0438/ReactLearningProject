@@ -2,10 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "tachyons";
 
-import MarkerList from "./MarkerList.js";
-import { robots } from "./Markers.js";
+import App from "./App.js";
+import "./index.css";
 
-ReactDOM.render(
-  <MarkerList markers={robots} />,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
